@@ -1,24 +1,24 @@
 # Site settings
 
-url: "http://panossakkos.github.io"
+url: "http://sexcoatl53.github.io"
 lang: "en"
-title: "{ Panos Sakkos }"
-description: "Blog and website of Panos Sakkos, blogging mainly for tech. Opinions expressed are mine."
-keywords: "panos, sakkos, panos sakkos, technology, computer science, Pwn Mail, WriteRight, UoA, di, CERN, MDCN, Microsoft"
-favicon: "/img/favicon.ico"
-black-favicon: "/img/black-lab-glass.ico"
-google-tracking-id: "UA-35880426-3"
-disqus-shortname: "panossakkos"
+title: "{ Hector Poblete }"
+description: "Sitio Web personal de Hector Poblete."
+keywords: "hector, poblete, hector poblete, UFRO, ingeniero, comercial"
+#favicon: "/img/favicon.ico"
+#black-favicon: "/img/black-lab-glass.ico"
+#google-tracking-id: "UA-35880426-3"
+#disqus-shortname: "panossakkos"
 
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
 # In the default page it will point to the preview of the last post
 
 pages_list:
-  About: 'about'
-  Blog: 'blog'
-  Career: 'career'
-  Contact: 'contact'
+  Acerca de: 'about'
+#  Blog: 'blog'# Blog desactivado temporalmente
+  Experiencia: 'Career'
+  Contacto: 'Contact'
 
 # Enable minification SASS
 sass:
@@ -82,4 +82,5 @@ social:
 404-img: "/img/labtocat.png"
 
 # Exclusion list from the generated _site
-exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
+#exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor", "blog"]
